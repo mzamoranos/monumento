@@ -1,27 +1,114 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="./assets/styles/main.scss"
+        />
+        <!-- do not remove this line! -->
+        <title>EL PILAR</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="title">
+                    Catedral - Basílica de nuestra señora del Pilar
+                </h2>
+            <picture >
+                
+                <source  
+                    srcset="./assets/images/panoramica.png?as=webp&width=350"
+                    type="image/webp"
+                />
+                <img
+                    src="./assets/images/panoramica.png"
+                    alt="El Pilar"
+                    class="logo"
+                />
+                
+            </picture>
+            <h1 class="title">El Pilar</h1> 
+            
+            <p> En la ciudad de Zaragoza (España) encontramos esta magnífica
+                basílica barroca donde se venera el pilar -que le da el nombre
+                popular- una columna de jaspe que según la tradición fue donde
+                la Virgen María hizo su aparición al apóstol Santiago (Patrón de
+                España) que se encontraba en la vieja Cesar Augusta para
+                predicar la palabra de Jesús, el 2 de enero del año 40. La
+                creencia religiosa habla de que la propia Virgen le entregó ese
+                pilar como símbolo de la fortaleza que debía tener su fe y le
+                encargó levantar un templo allí mismo, junto a los siete
+                primeros convertidos de la ciudad, es por esto que se le
+                considera el primer templo mariano de la Cristiandad.
+            </p>
+        </div>
+        <div>
+            <h3>HORARIOS</h3>
+              <hr />   
+           
+            <ul class="timetable">
+                <li ><h3>Basílica - Altar Mayor</h3>
+                    <p>Lunes a sábado: 7:30-13:30 / 16:30-20:30<p>
+
+                    </p> Domingo: 7:30-13:30 / 16:30-20:30</p>
+                  </li>
+                  <li>
+                    <h3>Basílica - Santa Capilla</h3>
+                    Todos los días: 8:00-20:30
+                
+              </li>
+              <li><h3>Tienda</h3>
+                
+                  
+                    <p>Todos los días 10:00-14:00 / 17:30-20:30</p>
+                
+                </li>
+                <li><h3>Torre mirador</h3>
+                 
+                      <p>Lunes a sábado: 10:30-14:30 / 16:00-20:00<p>
+                      </p> Domingo: 10:00-20:00</p>
+          
+                  </li>
+            </ul>
+            <p>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-volume-up fa-stack-1x"></i>
+              <i class="fa fa-ban fa-stack-2x text-danger"></i>
+          </span>
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-camera-retro fa-stack-1x"></i>
+          </span>
+
+          <span class="fa-stack fa-lg">
+              <i class="fa fa-mobile-phone fa-stack-1x"></i>
+              <i class="fa fa-ban fa-stack-2x text-danger"></i>
+          </span>
+          (en el interior)
+        </p>
+        </div>
+        <div clas="timetable">
+          <p> <h3>IMÁGENES</h3>
+            <hr />   
+          </p>
+        
+          <img src="./assets/images/Zaragoza.jpeg"
+          alt="El Pilar"
+            />
+          <img src="./assets/images/ElPilarNoche.jpg"
+          alt="El Pilar"
+            />
+            <img src="./assets/images/Pinturas.jpg"
+            alt="El Pilar"
+             />
+        <img src="./assets/images/Pilarica.jpeg"
+            alt="El Pilar"
+            />
+        </div>
+        <include src="./views/footer.html"></include>
+        <script type="module" src="./assets/scripts/main.js"></script>
+        <!-- do not remove this line! -->
+    </body>
 </html>
